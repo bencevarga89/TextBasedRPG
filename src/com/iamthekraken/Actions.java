@@ -37,6 +37,7 @@ public class Actions {
 
             case 48:
                 System.out.println("You turned right, good job");
+                System.out.println("Ezt csak azért írom, hogy lássam updatel-e....:D");
 
 
             case 72:
