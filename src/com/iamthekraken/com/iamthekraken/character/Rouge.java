@@ -1,97 +1,80 @@
-package com.iamthekraken;
+package com.iamthekraken.com.iamthekraken.character;
+
+import com.iamthekraken.com.iamthekraken.character.Hero;
 
 /**
- * Created by iamthekraken on 2017.03.06..
+ * Created by iamthekraken on 2017.03.16..
  */
-public class Hero extends Human {
+public class Rouge extends Hero {
 
     private int potionCount = 3;
     private int manaPotionCount = 1;
-    private int heroHealth;
-    private int heroMana;
-    private int heroDamage;
-    private int heroMagicDamage;
+    private int heroHealth = 120;
+    private int heroMana = 20;
+    private int heroDamage = 30;
+    private int heroMagicDamage = 10;
 
-    private String heroClass = "Unkown";
-    private String heroName = "Unkown";
-
-    public Hero(String heroName, String heroClass) {
-        this.heroName = heroName;
-        this.heroClass = heroClass;
-
-        if(heroClass == "Warrior"){
-            heroHealth = 120;
-            heroDamage = 30;
-            heroMana = 20;
-            heroMagicDamage = 10;
-        }else if (heroClass == "Mage"){
-            heroHealth = 80;
-            heroDamage = 10;
-            heroMana = 60;
-            heroMagicDamage = 30;
-        }else if (heroClass == "Rouge"){
-            heroHealth = 90;
-            heroDamage = 50;
-            heroMana = 20;
-            heroMagicDamage = 15;
-        }
+    public Rouge (String heroName, String heroClass) {
+        super(heroName, heroClass);
     }
 
-
+    @Override
     public int getPotionCount() {
         return potionCount;
     }
 
+    @Override
     public void setPotionCount(int potionCount) {
         this.potionCount = potionCount;
     }
 
+    @Override
     public int getManaPotionCount() {
         return manaPotionCount;
     }
 
+    @Override
     public void setManaPotionCount(int manaPotionCount) {
         this.manaPotionCount = manaPotionCount;
     }
 
-    public String getHeroName() {
-        return heroName;
-    }
-
+    @Override
     public int getHeroHealth() {
         return heroHealth;
     }
 
+    @Override
     public void setHeroHealth(int heroHealth) {
         this.heroHealth = heroHealth;
     }
 
+    @Override
     public int getHeroMana() {
         return heroMana;
     }
 
+    @Override
     public void setHeroMana(int heroMana) {
         this.heroMana = heroMana;
     }
 
+    @Override
     public int getHeroDamage() {
         return heroDamage;
     }
 
+    @Override
     public void setHeroDamage(int heroDamage) {
         this.heroDamage = heroDamage;
     }
 
+    @Override
     public int getHeroMagicDamage() {
         return heroMagicDamage;
     }
 
+    @Override
     public void setHeroMagicDamage(int heroMagicDamage) {
         this.heroMagicDamage = heroMagicDamage;
     }
-
-    public String getHeroClass() {
-        return heroClass;
-    }
-
 }

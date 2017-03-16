@@ -1,5 +1,9 @@
 package com.iamthekraken;
 
+import com.iamthekraken.com.iamthekraken.battle.Battle;
+import com.iamthekraken.com.iamthekraken.character.Enemy;
+import com.iamthekraken.com.iamthekraken.character.Hero;
+
 import java.util.Scanner;
 
 /**
@@ -8,10 +12,10 @@ import java.util.Scanner;
 public class Actions {
 
     static Scanner scanner = new Scanner(System.in);
+
     public static int choice;
 
     public static void PageCall(Hero hero, int pageNumber) {
-
 
         switch(pageNumber) {
 
@@ -25,6 +29,7 @@ public class Actions {
                 Battle battle = new Battle();
                 battle.BattleStart(hero, enemy);
                 Actions.PageCall(hero, 23);
+                break;
 
             case 23:
                 System.out.println("\n\nAfter defeating your enemy you continue in the dark corridor." +
@@ -33,15 +38,21 @@ public class Actions {
                         "\n To go right turn to page 72");
                 choice = scanner.nextInt();
                 Actions.PageCall(hero,choice);
+                break;
 
 
             case 48:
                 System.out.println("You turned right, good job");
-                System.out.println("Ezt csak azért írom, hogy lássam updatel-e....:D");
+
+                break;
 
 
             case 72:
                 System.out.println("You turned left, good job");
+                break;
+
+            default:
+                System.out.println("There is no such page in this book :(");
 
 
         }

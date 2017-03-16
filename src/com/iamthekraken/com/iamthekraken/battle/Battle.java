@@ -1,4 +1,7 @@
-package com.iamthekraken;
+package com.iamthekraken.com.iamthekraken.battle;
+
+import com.iamthekraken.com.iamthekraken.character.Enemy;
+import com.iamthekraken.com.iamthekraken.character.Hero;
 
 import java.util.Random;
 import java.util.Scanner;
