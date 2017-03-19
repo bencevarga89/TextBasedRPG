@@ -5,15 +5,15 @@ package com.iamthekraken.com.iamthekraken.character;
  */
 public class Hero extends Human {
 
-    private int potionCount = 3;
-    private int manaPotionCount = 1;
+    private String heroClass = "Unkown";
+    private String heroName = "Unkown";
+
+    private int potionCount;
+    private int manaPotionCount;
     private int heroHealth;
     private int heroMana;
     private int heroDamage;
     private int heroMagicDamage;
-
-    private String heroClass = "Unkown";
-    private String heroName = "Unkown";
 
     public Hero(String heroName, String heroClass) {
         this.heroName = heroName;
@@ -21,61 +21,68 @@ public class Hero extends Human {
 
     }
 
-
     public int getPotionCount() {
         return potionCount;
-    }
-
-    public void setPotionCount(int potionCount) {
-        this.potionCount = potionCount;
     }
 
     public int getManaPotionCount() {
         return manaPotionCount;
     }
 
-    public void setManaPotionCount(int manaPotionCount) {
-        this.manaPotionCount = manaPotionCount;
-    }
-
-    public String getHeroName() {
-        return heroName;
-    }
-
     public int getHeroHealth() {
         return heroHealth;
-    }
-
-    public void setHeroHealth(int heroHealth) {
-        this.heroHealth = heroHealth;
     }
 
     public int getHeroMana() {
         return heroMana;
     }
 
-    public void setHeroMana(int heroMana) {
-        this.heroMana = heroMana;
-    }
-
     public int getHeroDamage() {
         return heroDamage;
-    }
-
-    public void setHeroDamage(int heroDamage) {
-        this.heroDamage = heroDamage;
     }
 
     public int getHeroMagicDamage() {
         return heroMagicDamage;
     }
 
-    public void setHeroMagicDamage(int heroMagicDamage) {
-        this.heroMagicDamage = heroMagicDamage;
+    public String getHeroName() {
+        return heroName;
     }
-
     public String getHeroClass() {
         return heroClass;
     }
 
+    public void setHeroClass(String heroClass) {
+        this.heroClass = heroClass;
+    }
+
+    public void setHeroName(String heroName) {
+        this.heroName = heroName;
+    }
+
+    public void setPotionCount(int potionCount) {
+        this.potionCount = potionCount;
+    }
+
+    public void setManaPotionCount(int manaPotionCount) {
+        this.manaPotionCount = manaPotionCount;
+    }
+
+    public void setHeroHealth(int heroHealth) {
+        this.heroHealth = heroHealth;
+    }
+
+    public void setHeroMana(int heroMana) {
+        this.heroMana = heroMana;
+    }
+
+    public void setHeroDamage(int heroDamage) {
+        this.heroDamage = heroDamage;
+    }
+
+    public void setHeroMagicDamage(int heroMagicDamage) {
+        this.heroMagicDamage = heroMagicDamage;
+    }
 }
+
+
