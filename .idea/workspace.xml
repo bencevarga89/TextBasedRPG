@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37ef7edc-d3cc-425a-b096-c57ffa670c0c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/character/Human.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TextBasedRPG_v2.0/com/iamthekraken/Actions.class" afterPath="$PROJECT_DIR$/out/production/TextBasedRPG_v2.0/com/iamthekraken/Actions.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TextBasedRPG_v2.0/com/iamthekraken/Main.class" afterPath="$PROJECT_DIR$/out/production/TextBasedRPG_v2.0/com/iamthekraken/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/iamthekraken/Actions.java" afterPath="$PROJECT_DIR$/src/com/iamthekraken/Actions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/iamthekraken/Main.java" afterPath="$PROJECT_DIR$/src/com/iamthekraken/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/character/CharacterCreator.java" afterPath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/character/CharacterCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/character/Enemy.java" afterPath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/character/Enemy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/character/Hero.java" afterPath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/character/Hero.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/character/Rouge.java" afterPath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/character/Rouge.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/battle/Battle.java" afterPath="$PROJECT_DIR$/src/com/iamthekraken/Battle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/iamthekraken/com/iamthekraken/battle/Potion.java" afterPath="$PROJECT_DIR$/src/com/iamthekraken/Potion.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -585,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489947304509</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test">
+      <created>1490026649777</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1490026649777</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
