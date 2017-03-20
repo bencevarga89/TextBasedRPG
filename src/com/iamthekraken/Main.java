@@ -1,7 +1,5 @@
 package com.iamthekraken;
 
-import com.iamthekraken.com.iamthekraken.character.*;
-
 public class Main {
 
 

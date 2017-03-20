@@ -1,8 +1,5 @@
 package com.iamthekraken;
 
-import com.iamthekraken.com.iamthekraken.character.Enemy;
-import com.iamthekraken.com.iamthekraken.character.Hero;
-
 import java.util.Scanner;
 
 /**
@@ -26,7 +23,7 @@ public class Actions {
                         "\nonly to find yourself in front of an Enemy! \nYou have to fight it!");
                 Enemy enemy = new Enemy();
                 Battle battle = new Battle();
-                battle.BattleStart(hero, enemy);
+                battle.battleStart(hero, enemy);
                 Actions.PageCall(hero, 23);
                 break;
 

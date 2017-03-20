@@ -1,10 +1,9 @@
-package com.iamthekraken.com.iamthekraken.character;
+package com.iamthekraken;
 
 /**
  * Created by iamthekraken on 2017.03.16..
  */
-public class Warrior extends Hero {
-
+public class Rouge extends Hero {
 
     private int potionCount = 3;
     private int manaPotionCount = 1;
@@ -13,7 +12,7 @@ public class Warrior extends Hero {
     private int heroDamage = 30;
     private int heroMagicDamage = 10;
 
-    public Warrior(String heroName, String heroClass) {
+    public Rouge (String heroName, String heroClass) {
         super(heroName, heroClass);
     }
 

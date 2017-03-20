@@ -1,4 +1,4 @@
-package com.iamthekraken.com.iamthekraken.character;
+package com.iamthekraken;
 
 /**
  * Created by iamthekraken on 2017.03.16..

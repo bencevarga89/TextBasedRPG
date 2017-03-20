@@ -1,4 +1,4 @@
-package com.iamthekraken.com.iamthekraken.character;
+package com.iamthekraken;
 
 import java.util.Random;
 

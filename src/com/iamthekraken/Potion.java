@@ -18,7 +18,7 @@ public class Potion {
         return manaPotionHealAmount;
     }
 
-    public int UsePotion(int potionCount, int health, int potionHealAmount, int manaPotionHealAmount) {
+    public int usePotion(int potionCount, int health, int potionHealAmount, int manaPotionHealAmount) {
         if (potionCount > 0) {
             health += potionHealAmount;
             potionCount -= 1;
@@ -32,7 +32,7 @@ public class Potion {
     }
 
 
-    public int PotionDrop() {
+    public int potionDrop() {
         int randMinPotion = 1;
         int randMaxPotion = 3;
         int randDiffPotion = randMaxPotion - randMinPotion;

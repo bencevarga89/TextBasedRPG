@@ -1,8 +1,5 @@
 package com.iamthekraken;
 
-import com.iamthekraken.com.iamthekraken.character.Enemy;
-import com.iamthekraken.com.iamthekraken.character.Hero;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -14,7 +11,7 @@ public class Battle {
     private boolean ranAway = false;
 
 
-    public void BattleStart(Hero hero, Enemy enemy) {
+    public void battleStart(Hero hero, Enemy enemy) {
 
         int heroHealth = hero.getHeroHealth();
         int heroDamage = hero.getHeroDamage();
@@ -66,7 +63,7 @@ public class Battle {
                     System.out.println("You are defending so take no damage, however you also deal no damage");
 
                 } else if (option == 3) {
-                    potions.UsePotion(potionCount, heroHealth, potions.getPotionHealAmount(), potions.getManaPotionHealAmount());
+                    potions.usePotion(potionCount, heroHealth, potions.getPotionHealAmount(), potions.getManaPotionHealAmount());
                     heroHealth += potions.getPotionHealAmount();
                     potionCount -= 1;
 
@@ -95,7 +92,7 @@ public class Battle {
                     System.out.println(enemyName + " is dead!");
                     hero.setHeroHealth(heroHealth);
                     hero.setPotionCount(potionCount);
-                    int potionDropped = potions.PotionDrop();
+                    int potionDropped = potions.potionDrop();
                     if (potionDropped == 1) {
                         hero.setPotionCount(hero.getPotionCount() + 1);
                         System.out.println("The " + enemyName + " dropped a potion!\n You now have " + hero.getPotionCount() + " potions!");

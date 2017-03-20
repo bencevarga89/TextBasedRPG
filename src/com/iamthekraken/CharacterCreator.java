@@ -1,4 +1,4 @@
-package com.iamthekraken.com.iamthekraken.character;
+package com.iamthekraken;
 
 /**
  * Created by iamthekraken on 2017.03.07..
@@ -44,10 +44,8 @@ public class CharacterCreator {
 
 
     public static Hero classCreator(Hero hero){
-
         int choice;
         Scanner scanner = new Scanner(System.in);
-
         choice = scanner.nextInt();
 
         while(choice < 1 || choice > 3) {
@@ -65,6 +63,7 @@ public class CharacterCreator {
             hero.setHeroClass("Rogue");
             hero = new Rouge(hero.getHeroName(), hero.getHeroClass());
         }
+
         return hero;
     }
 
