@@ -1,38 +1,23 @@
 package com.iamthekraken;
 
-import com.iamthekraken.com.iamthekraken.character.Hero;
-import com.iamthekraken.com.iamthekraken.character.Warrior;
+import com.iamthekraken.com.iamthekraken.character.*;
 
 public class Main {
 
 
     public static void main(String[] args) {
 
-        //Character Generator
-//        CharacterCreator creator = new CharacterCreator();
-//
-//        String name = creator.NameCreator();
-//        String heroClass = creator.ClassCreator();
-//
-//        Hero hero = new Hero(name, heroClass);
-//        //Character Generator END
-//
-//        //Intro
-//
-//        Actions.PageCall(hero, 1);
+        CharacterCreator creator = new CharacterCreator();
 
 
-        //TESTING WARRIOR CLASS
+        String name = creator.nameCreator();
+        String characterClass = creator.classSelect();
+        Hero hero = new Hero(name,characterClass);
+        hero = CharacterCreator.classCreator(hero);
 
-        Hero hero = new Hero("Janika","Warrior");
-        Warrior warrior = new Warrior(hero.getHeroName(),hero.getHeroClass());
-
-        System.out.println("Warrior health is: " + hero.getHeroHealth());
-        System.out.println("Warrior health really is: " + warrior.getHeroHealth());
-
-        // Ez a bajom... így ha a játékos Warrior-t választ, akkor mindig warrior.getHeroHealth-et kell hívni, de ha Mage-t pl
-        //akkor meg mage.getHeroHealth... nem lehet ezt valahogy megoldani???
-
+        Actions.PageCall(hero,1);
 
     }
+
+
 }

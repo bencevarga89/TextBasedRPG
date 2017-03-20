@@ -3,10 +3,10 @@ package com.iamthekraken.com.iamthekraken.character;
 /**
  * Created by iamthekraken on 2017.03.06..
  */
-public class Hero extends Human {
+public class Hero {
 
-    private String heroClass = "Unkown";
     private String heroName = "Unkown";
+    private String heroClass = "Unkown";
 
     private int potionCount;
     private int manaPotionCount;
@@ -15,10 +15,9 @@ public class Hero extends Human {
     private int heroDamage;
     private int heroMagicDamage;
 
-    public Hero(String heroName, String heroClass) {
+    public Hero(String heroName, String characterClass) {
         this.heroName = heroName;
-        this.heroClass = heroClass;
-
+        this.heroClass = characterClass;
     }
 
     public int getPotionCount() {
@@ -48,13 +47,6 @@ public class Hero extends Human {
     public String getHeroName() {
         return heroName;
     }
-    public String getHeroClass() {
-        return heroClass;
-    }
-
-    public void setHeroClass(String heroClass) {
-        this.heroClass = heroClass;
-    }
 
     public void setHeroName(String heroName) {
         this.heroName = heroName;
@@ -82,6 +74,14 @@ public class Hero extends Human {
 
     public void setHeroMagicDamage(int heroMagicDamage) {
         this.heroMagicDamage = heroMagicDamage;
+    }
+
+    public String getHeroClass() {
+        return heroClass;
+    }
+
+    public void setHeroClass(String heroClass) {
+        this.heroClass = heroClass;
     }
 }
 

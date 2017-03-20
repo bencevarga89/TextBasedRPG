@@ -1,4 +1,4 @@
-package com.iamthekraken.com.iamthekraken.battle;
+package com.iamthekraken;
 
 import com.iamthekraken.com.iamthekraken.character.Enemy;
 import com.iamthekraken.com.iamthekraken.character.Hero;

@@ -10,7 +10,7 @@ public class CharacterCreator {
 
     Scanner scanner = new Scanner (System.in);
 
-    public String NameCreator (){
+    public String nameCreator (){
 
         String name;
 
@@ -23,10 +23,32 @@ public class CharacterCreator {
         return name;
     }
 
-    public String ClassCreator(){
+    public String classSelect (){
+        int choice;
+        choice = scanner.nextInt();
+        String characterClass = "Unkown";
 
-        String heroClass = "Unkown";
-        int choice = scanner.nextInt();
+        while(choice < 1 || choice > 3) {
+            System.out.println("Please enter a valid number!");
+            choice = scanner.nextInt();
+        }
+        if (choice == 1) {
+            characterClass = "Warrior";
+        } else if (choice == 2) {
+            characterClass = "Mage";
+        } else if (choice == 3) {
+            characterClass = "Rogue";
+        }
+        return characterClass;
+    }
+
+
+    public static Hero classCreator(Hero hero){
+
+        int choice;
+        Scanner scanner = new Scanner(System.in);
+
+        choice = scanner.nextInt();
 
         while(choice < 1 || choice > 3) {
             System.out.println("Please enter a valid number!");
@@ -34,13 +56,16 @@ public class CharacterCreator {
         }
 
         if (choice == 1) {
-            heroClass = "Warrior";
+            hero.setHeroClass("Warrior");
+            hero = new Warrior(hero.getHeroName(), hero.getHeroClass());
         } else if (choice == 2) {
-            heroClass = "Mage";
+            hero.setHeroClass("Mage");
+            hero = new Mage(hero.getHeroName(), hero.getHeroClass());
         } else if (choice == 3) {
-            heroClass = "Rouge";
+            hero.setHeroClass("Rogue");
+            hero = new Rouge(hero.getHeroName(), hero.getHeroClass());
         }
-        return heroClass;
+        return hero;
     }
 
 }

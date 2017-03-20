@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by iamthekraken on 2017.03.06..
  */
-public class Enemy extends Human {
+public class Enemy {
 
     private String enememyName;
     private int enemyDamage;

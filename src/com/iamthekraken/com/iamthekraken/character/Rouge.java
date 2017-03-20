@@ -1,7 +1,5 @@
 package com.iamthekraken.com.iamthekraken.character;
 
-import com.iamthekraken.com.iamthekraken.character.Hero;
-
 /**
  * Created by iamthekraken on 2017.03.16..
  */
