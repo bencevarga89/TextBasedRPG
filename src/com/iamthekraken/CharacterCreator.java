@@ -19,14 +19,15 @@ public class CharacterCreator {
         name = scanner.nextLine();
         System.out.println("\nPlease choose a character class: " +
                 "\n1. Warrior - High damage, High Base Health\n2. Mage - High Magic Damage, Low Base Health" +
-                "\n3. Rouge - Extra high damage, Low Base Health\r");
+                "\n3. Rouge - Extra high damage, Low Base Health");
         return name;
     }
 
     public String classSelect (){
         int choice;
-        choice = scanner.nextInt();
         String characterClass = "Unkown";
+
+        choice = scanner.nextInt();
 
         while(choice < 1 || choice > 3) {
             System.out.println("Please enter a valid number!");

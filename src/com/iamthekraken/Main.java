@@ -1,5 +1,7 @@
 package com.iamthekraken;
 
+import java.util.ArrayList;
+
 public class Main {
 
 
@@ -13,7 +15,14 @@ public class Main {
         Hero hero = new Hero(name,characterClass);
         hero = CharacterCreator.classCreator(hero);
 
-        Actions.PageCall(hero,1);
+        ArrayList<Actions> theStory = new ArrayList<Actions>();
+        theStory.add(new Actions(1,"The Story is now beginning"));
+
+        for (int i = 0; i < theStory.size(); i++){
+            System.out.println(theStory.get(i));
+        }
+
+
 
     }
 
