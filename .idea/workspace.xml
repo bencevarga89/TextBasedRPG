@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37ef7edc-d3cc-425a-b096-c57ffa670c0c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TextBasedRPG_v2.0/com/iamthekraken/Main.class" afterPath="$PROJECT_DIR$/out/production/TextBasedRPG_v2.0/com/iamthekraken/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/iamthekraken/Main.java" afterPath="$PROJECT_DIR$/src/com/iamthekraken/Main.java" />
     </list>
@@ -22,10 +23,10 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/iamthekraken/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="437">
+              <caret line="28" column="74" lean-forward="true" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
               <folding>
-                <element signature="e#440#449#0" expanded="true" />
+                <element signature="e#513#522#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -426,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492432367054</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test">
+      <created>1492433384020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1492433384020</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -517,7 +525,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#440#449#0" expanded="true" />
+            <element signature="e#513#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -618,7 +626,7 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#440#449#0" expanded="true" />
+            <element signature="e#513#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -719,7 +727,7 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#440#449#0" expanded="true" />
+            <element signature="e#513#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -819,7 +827,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#440#449#0" expanded="true" />
+            <element signature="e#513#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -894,7 +902,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#440#449#0" expanded="true" />
+            <element signature="e#513#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -969,7 +977,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#440#449#0" expanded="true" />
+            <element signature="e#513#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1028,7 +1036,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#440#449#0" expanded="true" />
+            <element signature="e#513#522#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1281,10 +1289,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iamthekraken/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="437">
+          <caret line="28" column="74" lean-forward="true" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
           <folding>
-            <element signature="e#440#449#0" expanded="true" />
+            <element signature="e#513#522#0" expanded="true" />
           </folding>
         </state>
       </provider>

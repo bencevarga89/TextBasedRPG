@@ -15,8 +15,9 @@ public class Main {
         Hero hero = new Hero(name,characterClass);
         hero = CharacterCreator.classCreator(hero);
 
+        Actions firstPage = new Actions(1,"The story is now beginning");
         ArrayList<Actions> theStory = new ArrayList<Actions>();
-        theStory.add(new Actions(1,"The Story is now beginning"));
+        theStory.add(firstPage);
         theStory.add(new Actions(2, "This is now the second page of the story")); //működőképes lenne?
 
         printTheActions(theStory); // nem printel :(((
