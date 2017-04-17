@@ -16,10 +16,10 @@ public class Main {
         hero = CharacterCreator.classCreator(hero);
 
         ArrayList<Actions> theStory = new ArrayList<Actions>();
-        theStory.add(new Actions(1,"The Story is now beginning"));
+        theStory.add(new Actions(1,"The Story is now beginning"));  //működőképes lenne?
 
         for (int i = 0; i < theStory.size(); i++){
-            System.out.println(theStory.get(i));
+            System.out.println(theStory.get(i));  //nem akarja valamiért ....
         }
 
 
